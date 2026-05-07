@@ -708,6 +708,16 @@ body a {
   color: black;
 }
 
+/* Footer */
+.site-footer {
+    background-color: black;
+    color: var(--color-raspberry_red);
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #333;
+}
+
 /* Mobile Responsive Queries */
 @media (max-width: 860px) {
   .hero {

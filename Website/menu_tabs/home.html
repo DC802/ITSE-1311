@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Global Search -->
+                <form class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon" aria-hidden="true">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search all products...</option>
+                            <option value="cpus.html#i9">Intel i9-14900K</option>
+                            <option value="cpus.html#ryzen9">AMD Ryzen 9 7950X</option>
+                            <option value="cpus.html#i7">Intel i7-14700K</option>
+                            <option value="cpus.html#ryzen7">Ryzen 7 7800X3D</option>
+                            <option value="gpus.html#rtx4090">RTX 4090</option>
+                            <option value="gpus.html#rx7900">RX 7900 XTX</option>
+                            <option value="gpus.html#rtx4070">RTX 4070 Super</option>
+                            <option value="gpus.html#rx7800">RX 7800 XT</option>
+                            <option value="motherboards.html#z790hero">ROG Z790 Hero</option>
+                            <option value="motherboards.html#b650">MSI B650 Tomahawk</option>
+                            <option value="motherboards.html#aorus">Z790 AORUS Elite</option>
+                            <option value="motherboards.html#x670e">X670E Steel Legend</option>
+                            <option value="ram.html#gskill">G.Skill Trident Z5</option>
+                            <option value="ram.html#corsair">Corsair Vengeance RGB</option>
+                            <option value="ram.html#kingston">Kingston Fury</option>
+                            <option value="ram.html#tforce">T-Force Vulcan</option>
+                            <option value="storage.html#samsung990">Samsung 990 Pro</option>
+                            <option value="storage.html#crucial">Crucial P3 Plus</option>
+                            <option value="storage.html#sn850x">WD Black SN850X</option>
+                            <option value="storage.html#ironwolf">IronWolf 8TB</option>
+                            <option value="psu.html#hx1200">Corsair HX1200</option>
+                            <option value="psu.html#evga850">EVGA 850 G6</option>
+                            <option value="psu.html#seasonic">Seasonic GX-750</option>
+                            <option value="psu.html#thermaltake">Toughpower 600W</option>
+                            <option value="cases.html#lianli">Lian Li O11</option>
+                            <option value="cases.html#corsair4000d">Corsair 4000D</option>
+                            <option value="cases.html#nzxt">NZXT H5 Flow</option>
+                            <option value="cases.html#fractal">Fractal Pop Air</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html" class="active"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: Home Page -->
+    <main class="page-main">
+        
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Build Your Dream PC</h1>
+                <p>Premium computer parts for gamers, creators, and professionals. Quality components at competitive prices.</p>
+                <div class="hero-buttons">
+                    <a href="#shop-categories" class="cta-button">Shop Now</a>
+                    <a href="#latest-deals" class="cta-button secondary">Check Deals</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/pc_parts/custom pc.webp" alt="Custom PC Build" />
+            </div>
+        </section>
+
+        <!-- Featured Categories -->
+        <section id="shop-categories" class="featured-categories">
+            <h2>Shop by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🖥️</div>
+                    <h3>CPUs</h3>
+                    <p>High-performance processors from Intel and AMD</p>
+                    <a href="cpus.html" class="category-link">Browse CPUs</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🎮</div>
+                    <h3>GPUs</h3>
+                    <p>Graphics cards for gaming and rendering</p>
+                    <a href="gpus.html" class="category-link">Browse GPUs</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🔌</div>
+                    <h3>Motherboards</h3>
+                    <p>Reliable boards for every build</p>
+                    <a href="motherboards.html" class="category-link">Browse Motherboards</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">💾</div>
+                    <h3>RAM</h3>
+                    <p>Fast memory modules for optimal performance</p>
+                    <a href="ram.html" class="category-link">Browse RAM</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">⚡</div>
+                    <h3>Power Supplies</h3>
+                    <p>Efficient PSUs for stable power</p>
+                    <a href="psu.html" class="category-link">Browse PSUs</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🗄️</div>
+                    <h3>Storage</h3>
+                    <p>SSDs and HDDs for data storage</p>
+                    <a href="storage.html" class="category-link">Browse Storage</a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🖥</div>
+                    <h3>Cases</h3>
+                    <p>Stylish and functional PC cases to cool the heat</p>
+                    <a href="cases.html" class="category-link">Browse Cases</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Deals -->
+        <section id="latest-deals" class="deals">
+            <h2>Latest Deals</h2>
+            <div class="deals-grid">
+                <div class="deal-card">
+                    <div class="deal-badge">Save 20%</div>
+                    <img src="../images/pc_parts/rtx4090.jpg" alt="RTX 4090" />
+                    <h4>RTX 4090 Graphics Card</h4>
+                    <p class="price">$599 <span class="old-price">$700</span></p>
+                    <a href="gpus.html" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">New</div>
+                    <img src="../images/pc_parts/intelcorei9.jpg" alt="Intel i9" />
+                    <h4>Intel Core i9-14900K</h4>
+                    <p class="price">$450</p>
+                    <a href="cpus.html" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Bundle</div>
+                    <img src="../images/pc_parts/32gbddr5ram.jpg" alt="RAM Kit" />
+                    <h4>Corsair Vengeance 32GB DDR5</h4>
+                    <p class="price">$300</p>
+                    <a href="ram.html" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Sale</div>
+                    <img src="../images/pc_parts/750wattpsu.jpg" alt="750W PSU" />
+                    <h4>Seasonic FOCUS GX-750</h4>
+                    <p class="price">$105</p>
+                    <a href="psu.html#seasonic750" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Sale</div>
+                    <img src="../images/pc_parts/wdblack2tb.jpg" alt="2TB SSD" />
+                    <h4>WD Black SN850X 2TB</h4>
+                    <p class="price">$155</p>
+                    <a href="storage.html#sn850x" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Premium</div>
+                    <img src="../images/pc_parts/asusrog.jpg" alt="ROG Motherboard" />
+                    <h4>ASUS ROG Maximus Z790 Hero</h4>
+                    <p class="price">$630</p>
+                    <a href="motherboards.html" class="deal-link">View Deal</a>
+                </div>
+                <div class="deal-card">
+                    <div class="deal-badge">Budget</div>
+                    <img src="../images/pc_parts/fractaldesign.webp" alt="Fractal Case" />
+                    <h4>Fractal Design Pop Air</h4>
+                    <p class="price">$70</p>
+                    <a href="cases.html#fractal-pop" class="deal-link">View Deal</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

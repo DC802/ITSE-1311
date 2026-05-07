@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cases - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search Cases...</option>
+                            <option value="#lianli">Lian Li PC-O11 Dynamic</option>
+                            <option value="#corsair4000d">Corsair 4000D Airflow</option>
+                            <option value="#nzxt-h5">NZXT H5 Flow</option>
+                            <option value="#fractal-pop">Fractal Design Pop Air</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html" class="active"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: Case Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: Lian Li -->
+            <div class="product-card" id="lianli">
+                <div class="deal-badge">Popular</div>
+                <div>
+                    <h1>Lian Li PC-O11 Dynamic</h1>
+                    <p>The iconic glass-panel case designed for stunning water-cooled builds.</p>
+                    <div class="product-price">$149.99</div>
+                    <a href="../headers/cart.html#lianli" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/lianli.webp" alt="Lian Li Case" />
+            </div>
+
+            <!-- Product: Corsair -->
+            <div class="product-card" id="corsair4000d">
+                <div>
+                    <h1>Corsair 4000D Airflow</h1>
+                    <p>High-airflow mid-tower case with exceptional cable management features.</p>
+                    <div class="product-price">$104.99</div>
+                    <a href="../headers/cart.html#corsair4000d" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/corsair4000D.jpg" alt="Corsair Case" />
+            </div>
+
+            <!-- Product: NZXT -->
+            <div class="product-card" id="nzxt-h5">
+                <div class="deal-badge">Sale</div>
+                <div>
+                    <h1>NZXT H5 Flow</h1>
+                    <p>Compact mid-tower with dedicated GPU cooling and sleek aesthetics.</p>
+                    <div class="product-price">
+                        <span class="old-price">$94.99</span> $79.99
+                    </div>
+                    <a href="../headers/cart.html#nzxt" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/nzxth5.webp" alt="NZXT Case" />
+            </div>
+
+            <!-- Product: Fractal -->
+            <div class="product-card" id="fractal-pop">
+                <div class="deal-badge">Budget</div>
+                <div>
+                    <h1>Fractal Design Pop Air</h1>
+                    <p>Functional and colorful case that doesn't compromise on thermal performance.</p>
+                    <div class="product-price">$69.99</div>
+                    <a href="../headers/cart.html#fractal" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/fractaldesign.webp" alt="Fractal Case" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

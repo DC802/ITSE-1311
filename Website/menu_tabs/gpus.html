@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPUs - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search GPUs...</option>
+                            <option value="#rtx4090">RTX 4090</option>
+                            <option value="#rx7900">RX 7900 XTX</option>
+                            <option value="#rtx4070">RTX 4070 Super</option>
+                            <option value="#rx7800">RX 7800 XT</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html" class="active"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: GPU Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: NVIDIA RTX 4090 -->
+            <div class="product-card" id="rtx4090">
+                <div class="deal-badge">Save 20%</div>
+                <div>
+                    <h1>NVIDIA GeForce RTX 4090</h1>
+                    <p>The ultimate GPU for 4K ray-traced gaming and AI-driven creative workflows.</p>
+                    <div class="product-price">
+                        <span class="old-price">$700.00</span> $599.99
+                    </div>
+                    <a href="../headers/cart.html#rtx4090" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/rtx4090.jpg" alt="rtx4090" />
+            </div>
+
+            <!-- Product: AMD RX 7900 XTX -->
+            <div class="product-card" id="rx7900">
+                <div>
+                    <h1>AMD Radeon RX 7900 XTX</h1>
+                    <p>Flagship RDNA 3 performance with massive VRAM for high-resolution gaming.</p>
+                    <div class="product-price">$949.99</div>
+                    <a href="../headers/cart.html#rx7900" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/radeonrx7900.webp" alt="rx7900" />
+            </div>
+
+            <!-- Product: NVIDIA RTX 4070 Super -->
+            <div class="product-card" id="rtx4070">
+                <div>
+                    <h1>NVIDIA GeForce RTX 4070 Super</h1>
+                    <p>Exceptional 1440p performance with industry-leading power efficiency and DLSS 3.</p>
+                    <div class="product-price">$549.99</div>
+                    <a href="../headers/cart.html#rtx4070" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/rtx4070.jpg" alt="rtx4070super" />
+            </div>
+
+            <!-- Product: AMD RX 7800 XT -->
+            <div class="product-card" id="rx7800">
+                <div>
+                    <h1>AMD Radeon RX 7800 XT</h1>
+                    <p>The sweet spot for mid-range gaming, offering great value and smooth frame rates.</p>
+                    <div class="product-price">$499.99</div>
+                    <a href="../headers/cart.html#rx7800" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/radeonrx7800.png" alt="rx7800" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

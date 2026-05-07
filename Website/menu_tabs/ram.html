@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search RAM...</option>
+                            <option value="#gskill">G.Skill Trident Z5 RGB</option>
+                            <option value="#corsair">Corsair Vengeance RGB</option>
+                            <option value="#kingston">Kingston FURY Renegade</option>
+                            <option value="#tforce">TeamGroup T-Force Vulcan</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html" class="active"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: RAM Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: G.Skill Trident Z5 -->
+            <div class="product-card" id="gskill">
+                <div>
+                    <h1>G.Skill Trident Z5 RGB 32GB</h1>
+                    <p>Ultra-fast DDR5-6400 CL32 memory optimized for latest platforms.</p>
+                    <div class="product-price">$319.99</div>
+                    <a href="../headers/cart.html#gskill" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/gskill32gbram.jpg" alt="DDR5 RAM" />
+            </div>
+
+            <!-- Product: Corsair Vengeance -->
+            <div class="product-card" id="corsair">
+                <div class="deal-badge">Bundle</div>
+                <div>
+                    <h1>Corsair Vengeance RGB 32GB</h1>
+                    <p>High-capacity DDR5 kit with customizable RGB lighting.</p>
+                    <div class="product-price">$299.99</div>
+                    <a href="../headers/cart.html#corsair" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/32gbddr5ram.jpg" alt="Corsair RAM" />
+            </div>
+
+            <!-- Product: Kingston FURY -->
+            <div class="product-card" id="kingston">
+                <div>
+                    <h1>Kingston FURY Renegade 32GB</h1>
+                    <p>Extreme performance DDR4 memory for legacy systems.</p>
+                    <div class="product-price">$114.99</div>
+                    <a href="../headers/cart.html#kingston" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/kingston32gbram.jpg" alt="Kingston RAM" />
+            </div>
+
+            <!-- Product: TeamGroup T-Force -->
+            <div class="product-card" id="tforce">
+                <div class="deal-badge">Budget</div>
+                <div>
+                    <h1>TeamGroup T-Force Vulcan 16GB</h1>
+                    <p>Reliable and low-profile DDR4 memory for compact builds.</p>
+                    <div class="product-price">$59.99</div>
+                    <a href="../headers/cart.html#tforce" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/t-forceddr416gbram.jpg" alt="TeamGroup RAM" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

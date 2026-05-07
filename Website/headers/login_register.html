@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="../menu_tabs/home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="SCG Logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="login_register.html" class="active">Account</a>
+                    <a href="support.html">Support</a>
+                    <a href="cart.html">Cart</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content: Authentication Forms -->
+    <main class="account-page">
+        <div class="account-container" style="justify-content: center;">
+            <div class="account-box" style="max-width: 500px;">
+                
+                <!-- Tab Controls -->
+                <div class="tabs">
+                    <button class="tab active" onclick="showTab('login')">Login</button>
+                    <button class="tab" onclick="showTab('register')">Register</button>
+                </div>
+
+                <!-- Section: Login -->
+                <div id="login" class="tab-content active">
+                    <form action="account.html">
+                        <h1>Login</h1>
+                        <label>Email</label>
+                        <input type="email" placeholder="guest1@scg.com" required>
+                        <label>Password</label>
+                        <input type="password" placeholder="123" required>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+
+                <!-- Section: Register -->
+                <div id="register" class="tab-content" style="display:none;">
+                    <form action="account.html">
+                        <h1>Register</h1>
+                        <label>Username</label>
+                        <input type="text" placeholder="Choose username" required>
+                        <label>Email</label>
+                        <input type="email" placeholder="Enter email" required>
+                        <label>Password</label>
+                        <input type="password" placeholder="Create password" required>
+                        <button type="submit">Create Account</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- UI Logic: Tab Toggling -->
+    <script>
+        function showTab(tabId) {
+            // Hide all form contents
+            document.querySelectorAll(".tab-content").forEach(el => el.style.display = "none");
+            // Deactivate all tab buttons
+            document.querySelectorAll(".tab").forEach(el => el.classList.remove("active"));
+            
+            // Show selected form and activate button
+            document.getElementById(tabId).style.display = "block";
+            event.target.classList.add("active");
+        }
+    </script>
+
+</body>
+</html>

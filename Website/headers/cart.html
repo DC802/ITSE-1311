@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="../menu_tabs/home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="SCG Logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="login_register.html">Account</a>
+                    <a href="support.html">Support</a>
+                    <a href="cart.html" class="active">Cart</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shopping Cart Content -->
+    <main class="account-page">
+        <h1>Your Shopping Cart</h1>
+        
+        <div class="account-container">
+            
+            <!-- LEFT: Component Selection List -->
+            <div class="account-box">
+                <h2>Component List</h2>
+
+                <!-- Category: CPUs -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="i9"><summary>Intel i9-14900K</summary><div class="cart-item"><img src="../images/pc_parts/intelcorei9.jpg"><div class="cart-info"><h3>Intel i9-14900K</h3><p>$549.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="ryzen9"><summary>AMD Ryzen 9 7950X</summary><div class="cart-item"><img src="../images/pc_parts/amd ryzen 9.jpg"><div class="cart-info"><h3>AMD Ryzen 9 7950X</h3><p>$529.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="i7"><summary>Intel i7-14700K</summary><div class="cart-item"><img src="../images/pc_parts/inteli7.webp"><div class="cart-info"><h3>Intel i7-14700K</h3><p>$389.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="ryzen7"><summary>Ryzen 7 7800X3D</summary><div class="cart-item"><img src="../images/pc_parts/amdryzen7.webp"><div class="cart-info"><h3>Ryzen 7 7800X3D</h3><p>$399.99</p></div></div></details>
+                </div>
+
+                <!-- Category: GPUs -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="rtx4090"><summary>RTX 4090</summary><div class="cart-item"><img src="../images/pc_parts/rtx4090.jpg"><div class="cart-info"><h3>RTX 4090</h3><p>$1699.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="rx7900"><summary>RX 7900 XTX</summary><div class="cart-item"><img src="../images/pc_parts/radeonrx7900.webp"><div class="cart-info"><h3>RX 7900 XTX</h3><p>$949.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="rtx4070"><summary>RTX 4070 Super</summary><div class="cart-item"><img src="../images/pc_parts/rtx4070.jpg"><div class="cart-info"><h3>RTX 4070 Super</h3><p>$599.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="rx7800"><summary>RX 7800 XT</summary><div class="cart-item"><img src="../images/pc_parts/radeonrx7800.png"><div class="cart-info"><h3>RX 7800 XT</h3><p>$499.99</p></div></div></details>
+                </div>
+
+                <!-- Category: Motherboards -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="z790hero"><summary>ROG Z790 Hero</summary><div class="cart-item"><img src="../images/pc_parts/asusrog.jpg"><div class="cart-info"><h3>ROG Z790 Hero</h3><p>$629.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="b650"><summary>MSI B650 Tomahawk</summary><div class="cart-item"><img src="../images/pc_parts/msimag.jpg"><div class="cart-info"><h3>MSI B650 Tomahawk</h3><p>$219.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="aorus"><summary>Z790 AORUS Elite</summary><div class="cart-item"><img src="../images/pc_parts/gigabytez790.jpg"><div class="cart-info"><h3>Z790 AORUS Elite</h3><p>$259.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="x670e"><summary>X670E Steel Legend</summary><div class="cart-item"><img src="../images/pc_parts/asrockmotherboard.jpg"><div class="cart-info"><h3>X670E Steel Legend</h3><p>$299.99</p></div></div></details>
+                </div>
+
+                <!-- Category: RAM -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="gskill"><summary>G.Skill Trident Z5</summary><div class="cart-item"><img src="../images/pc_parts/gskill32gbram.jpg"><div class="cart-info"><h3>G.Skill Trident Z5</h3><p>$124.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="corsair"><summary>Corsair Vengeance RGB</summary><div class="cart-item"><img src="../images/pc_parts/32gbddr5ram.jpg"><div class="cart-info"><h3>Corsair Vengeance RGB</h3><p>$119.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="kingston"><summary>Kingston Fury</summary><div class="cart-item"><img src="../images/pc_parts/kingston32gbram.jpg"><div class="cart-info"><h3>Kingston Fury</h3><p>$114.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="tforce"><summary>T-Force Vulcan</summary><div class="cart-item"><img src="../images/pc_parts/t-forceddr416gbram.jpg"><div class="cart-info"><h3>T-Force Vulcan</h3><p>$99.99</p></div></div></details>
+                </div>
+
+                <!-- Category: Storage -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="samsung990"><summary>Samsung 990 Pro</summary><div class="cart-item"><img src="../images/pc_parts/Samsung2TB.jpg"><div class="cart-info"><h3>Samsung 990 Pro</h3><p>$179.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="crucial"><summary>Crucial P3 Plus</summary><div class="cart-item"><img src="../images/pc_parts/crucial1tb.png"><div class="cart-info"><h3>Crucial P3 Plus</h3><p>$119.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="sn850x"><summary>WD Black SN850X</summary><div class="cart-item"><img src="../images/pc_parts/wdblack2tb.jpg"><div class="cart-info"><h3>WD Black SN850X</h3><p>$154.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="ironwolf"><summary>IronWolf 8TB</summary><div class="cart-item"><img src="../images/pc_parts/ironwolf8tbhdd.jpg"><div class="cart-info"><h3>IronWolf 8TB</h3><p>$199.99</p></div></div></details>
+                </div>
+
+                <!-- Category: Power Supplies -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="hx1200"><summary>Corsair HX1200</summary><div class="cart-item"><img src="../images/pc_parts/1200wattpsu.webp"><div class="cart-info"><h3>Corsair HX1200</h3><p>$249.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="evga850"><summary>EVGA 850 G6</summary><div class="cart-item"><img src="../images/pc_parts/850wattpsu.webp"><div class="cart-info"><h3>EVGA 850 G6</h3><p>$139.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="seasonic"><summary>Seasonic GX-750</summary><div class="cart-item"><img src="../images/pc_parts/750wattpsu.jpg"><div class="cart-info"><h3>Seasonic GX-750</h3><p>$104.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="thermaltake"><summary>Toughpower 600W</summary><div class="cart-item"><img src="../images/pc_parts/600wattpsu.jpg"><div class="cart-info"><h3>Toughpower 600W</h3><p>$69.99</p></div></div></details>
+                </div>
+
+                <!-- Category: Cases -->
+                <div class="cart-group">
+                    <details class="cart-item-toggle" id="lianli"><summary>Lian Li O11</summary><div class="cart-item"><img src="../images/pc_parts/lianli.webp"><div class="cart-info"><h3>Lian Li O11</h3><p>$149.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="corsair4000d"><summary>Corsair 4000D</summary><div class="cart-item"><img src="../images/pc_parts/corsair4000D.jpg"><div class="cart-info"><h3>Corsair 4000D</h3><p>$104.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="nzxt"><summary>NZXT H5 Flow</summary><div class="cart-item"><img src="../images/pc_parts/nzxth5.webp"><div class="cart-info"><h3>NZXT H5 Flow</h3><p>$94.99</p></div></div></details>
+                    <details class="cart-item-toggle" id="fractal"><summary>Fractal Pop Air</summary><div class="cart-item"><img src="../images/pc_parts/fractaldesign.webp"><div class="cart-info"><h3>Fractal Pop Air</h3><p>$79.99</p></div></div></details>
+                </div>
+            </div>
+
+            <!-- RIGHT: Checkout Summary -->
+            <div class="account-dashboard">
+                <h2>Summary</h2>
+                <div class="dashboard-card">
+                    <p><strong>Subtotal:</strong> Calculated at Purchase</p>
+                    <p><strong>Shipping:</strong> Free</p>
+                    <hr style="border: 0; border-top: 1px solid var(--color-vintage_berry); margin: 10px 0;">
+                    <p><strong>Total:</strong> Pending Selection</p>
+                </div>
+                <div class="dashboard-card">
+                    <a href="purchase.html" class="cta-button" style="text-align: center; display: block;">Purchase</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

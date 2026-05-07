@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search Storage...</option>
+                            <option value="#samsung990">Samsung 990 Pro 2TB</option>
+                            <option value="#crucialp3">Crucial P3 Plus 1TB</option>
+                            <option value="#sn850x">WD Black SN850X 2TB</option>
+                            <option value="#ironwolf">Seagate IronWolf 8TB</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html" class="active"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: Storage Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: Samsung 990 Pro -->
+            <div class="product-card" id="samsung990">
+                <div class="deal-badge">Speed</div>
+                <div>
+                    <h1>Samsung 990 Pro 2TB</h1>
+                    <p>Blistering PCIe 4.0 speeds for gaming and heavy workloads.</p>
+                    <div class="product-price">$169.99</div>
+                    <a href="../headers/cart.html#samsung990" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/Samsung2TB.jpg" alt="Samsung NVMe" />
+            </div>
+
+            <!-- Product: Crucial P3 Plus -->
+            <div class="product-card" id="crucialp3">
+                <div>
+                    <h1>Crucial P3 Plus 1TB</h1>
+                    <p>Reliable Gen4 performance at a budget-friendly price point.</p>
+                    <div class="product-price">$79.99</div>
+                    <a href="../headers/cart.html#crucial" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/crucial1tb.png" alt="Crucial SSD" />
+            </div>
+
+            <!-- Product: WD Black SN850X -->
+            <div class="product-card" id="sn850x">
+                <div class="deal-badge">Sale</div>
+                <div>
+                    <h1>WD Black SN850X 2TB</h1>
+                    <p>Top-tier NVMe with massive throughput and high endurance.</p>
+                    <div class="product-price">
+                        <span class="old-price">$199.99</span> $154.99
+                    </div>
+                    <a href="../headers/cart.html#sn850x" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/wdblack2tb.jpg" alt="WD Black SSD" />
+            </div>
+
+            <!-- Product: Seagate IronWolf -->
+            <div class="product-card" id="ironwolf">
+                <div>
+                    <h1>Seagate IronWolf 8TB</h1>
+                    <p>High-capacity storage optimized for NAS and bulk data.</p>
+                    <div class="product-price">$189.99</div>
+                    <a href="../headers/cart.html#ironwolf" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/ironwolf8tbhdd.jpg" alt="HDD Storage" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

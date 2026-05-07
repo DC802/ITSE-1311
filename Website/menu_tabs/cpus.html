@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPUs - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search CPUs...</option>
+                            <option value="#i9">Intel Core i9-14900K</option>
+                            <option value="#ryzen9">AMD Ryzen 9 7950X</option>
+                            <option value="#i7">Intel Core i7-14700K</option>
+                            <option value="#ryzen7">AMD Ryzen 7 7800X3D</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html" class="active"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: CPU Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: Intel i9 -->
+            <div class="product-card" id="i9">
+                <div class="deal-badge">New</div>
+                <div>
+                    <h1>Intel Core i9-14900K</h1>
+                    <p>Flagship Intel processor built for extreme gaming and high-end productivity.</p>
+                    <div class="product-price">$449.99</div>
+                    <a href="../headers/cart.html#i9" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/intelcorei9.jpg" alt="i9" />
+            </div>
+
+            <!-- Product: Ryzen 9 -->
+            <div class="product-card" id="ryzen9">
+                <div>
+                    <h1>AMD Ryzen 9 7950X</h1>
+                    <p>Extreme multi-core performance for creators and professionals.</p>
+                    <div class="product-price">$524.00</div>
+                    <a href="../headers/cart.html#ryzen9" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/amd ryzen 9.jpg" alt="ryzen" />
+            </div>
+
+            <!-- Product: Intel i7 -->
+            <div class="product-card" id="i7">
+                <div>
+                    <h1>Intel Core i7-14700K</h1>
+                    <p>High FPS gaming CPU with strong performance per dollar.</p>
+                    <div class="product-price">$389.99</div>
+                    <a href="../headers/cart.html#i7" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/inteli7.webp" alt="i7" />
+            </div>
+
+            <!-- Product: Ryzen 7 -->
+            <div class="product-card" id="ryzen7">
+                <div>
+                    <h1>AMD Ryzen 7 7800X3D</h1>
+                    <p>Best gaming CPU with 3D V-Cache technology.</p>
+                    <div class="product-price">$449.00</div>
+                    <a href="../headers/cart.html#ryzen7" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/amdryzen7.webp" alt="7800x3d" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

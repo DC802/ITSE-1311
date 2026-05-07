@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Supplies - Signal Computer Group</title>
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="../images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+</head>
+<body>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-top">
+            
+            <a class="brand" href="home.html">
+                <img class="logo" src="../images/logo/SCG Logo v2.png" alt="Signal Computer Group logo" />
+                <span>Signal Computer Group</span>
+            </a>
+
+            <!-- Header Navigation -->
+            <div class="header-right">
+                <div class="top-links">
+                    <a href="../headers/login_register.html">Account</a>
+                    <a href="../headers/support.html">Support</a>
+                    <a href="../headers/cart.html">Cart</a>
+                </div>
+
+                <!-- Dropdown Search -->
+                <div class="searchbar">
+                    <div class="search-field">
+                        <span class="search-icon">🔍</span>
+                        <select onchange="if(this.value) location = this.value">
+                            <option value="">Search PSUs...</option>
+                            <option value="#hx1200">Corsair HX1200</option>
+                            <option value="#evga850">EVGA SuperNOVA 850 G6</option>
+                            <option value="#seasonic750">Seasonic FOCUS GX-750</option>
+                            <option value="#thermaltake600">Thermaltake Toughpower 600W</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Menu Bar -->
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="home.html"><span>Home</span></a></li>
+                <li><a href="cpus.html"><span>CPUs</span></a></li>
+                <li><a href="gpus.html"><span>GPUs</span></a></li>
+                <li><a href="motherboards.html"><span>Motherboards</span></a></li>
+                <li><a href="ram.html"><span>RAM</span></a></li>
+                <li><a href="storage.html"><span>Storage</span></a></li>
+                <li><a href="psu.html" class="active"><span>Power Supplies</span></a></li>
+                <li><a href="cases.html"><span>Cases</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content: PSU Product Grid -->
+    <main class="page-main">
+        <section class="product-grid">
+
+            <!-- Product: Corsair HX1200 -->
+            <div class="product-card" id="hx1200">
+                <div class="deal-badge">Platinum</div>
+                <div>
+                    <h1>Corsair HX1200</h1>
+                    <p>High-efficiency 1200W Platinum rated power supply for extreme rigs.</p>
+                    <div class="product-price">$249.99</div>
+                    <a href="../headers/cart.html#hx1200" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/1200wattpsu.webp" alt="1200W PSU" />
+            </div>
+
+            <!-- Product: EVGA 850 -->
+            <div class="product-card" id="evga850">
+                <div>
+                    <h1>EVGA SuperNOVA 850 G6</h1>
+                    <p>Compact and silent 850W Gold rated PSU with fully modular cables.</p>
+                    <div class="product-price">$139.99</div>
+                    <a href="../headers/cart.html#evga850" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/850wattpsu.webp" alt="850W PSU" />
+            </div>
+
+            <!-- Product: Seasonic 750 -->
+            <div class="product-card" id="seasonic750">
+                <div class="deal-badge">Sale</div>
+                <div>
+                    <h1>Seasonic FOCUS GX-750</h1>
+                    <p>Industry-leading reliability and a 10-year warranty for peace of mind.</p>
+                    <div class="product-price">
+                        <span class="old-price">$129.99</span> $104.99
+                    </div>
+                    <a href="../headers/cart.html#seasonic" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/750wattpsu.jpg" alt="750W PSU" />
+            </div>
+
+            <!-- Product: Thermaltake 600 -->
+            <div class="product-card" id="thermaltake600">
+                <div class="deal-badge">Budget</div>
+                <div>
+                    <h1>Thermaltake Toughpower 600W</h1>
+                    <p>Solid Gold-rated efficiency for entry-level and mid-range builds.</p>
+                    <div class="product-price">$69.99</div>
+                    <a href="../headers/cart.html#thermaltake" class="cta-button">Add To Cart</a>
+                </div>
+                <img src="../images/pc_parts/600wattpsu.jpg" alt="600W PSU" />
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>

@@ -712,10 +712,10 @@ body a {
 .site-footer {
     background-color: black;
     color: var(--color-raspberry_red);
-    padding: 30px 20px;
+    padding: 10px 10px;
     text-align: center;
-    margin-top: 50px;
-    border-top: 1px solid #333;
+    margin-top: 10px;
+    border-top: 1px solid var(--color-honey_bronze);
 }
 
 /* Mobile Responsive Queries */
